@@ -17,7 +17,7 @@ background: #cccccc;   /* cor de fundo de todas as paginas  */
 }
 
 ul{
-    list-style-type: none;     /* tira a configuração automatica de marcação do css */
+    list-style-type: none;     /* tira a configuração automatica de marcação do html */
 }
 
 .caixa{    
