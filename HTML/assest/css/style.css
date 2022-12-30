@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');         /* fontes importadas do Google*/
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+body{
+background: #cccccc;   /* cor de fundo de todas as paginas  */
+}
+
+#minhafoto{
+    margin: 20px 20px 20px 20px;    
+    width: 200px;
+    height: 200px;           /*  configuração da minha foto na pagina inicial */
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 2px solid rgb(15, 15, 16);
+ 
+    
+}
+
+ul{
+    list-style-type: none;     /* tira a configuração automatica de marcação do css */
+}
+
+.caixa{    
+    position: relative;
+    width: 940px;         /* configuração do menu de navegação da pagina index*/
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute; /*configuração da posição das palavras da do menu de navegação pagina index*/
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline; /*configuração da posição das palavras da do menu de navegação pagina index*/
+    margin: 0 0 0 20px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;      /*configuração das palavras do menu de navegação pagina index*/
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:hover {
+	color: #570e9b;  /*configuração das palavras do menu de navegação pagina index mudança de cor e sublinhado das palavras*/
+   text-decoration: underline;     
+}
+
+.sobremim{
+    background: #ffffff; /*configuração da div sobre mim cor de fundo alinhamento das paragrafos e estilo da fonte das palavras*/    
+    padding: 160px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+    
+}
+
+footer{
+    text-align: auto; /*configuração do alinhamento dos logos e banner no rodape*/	
+	padding: 40px 0;
+    margin: 0 auto; 
+    position: relative;
+    width: 940px; 
+    
+}
+
+.copy{
+   text-align: center; /*alinhamento e configuração do simbolo copyright, tamanho e cor da frase */      
+   font-size: 18px;
+   color: white;
+  
+}
+
+
+#logo{ /*configuração do logo RD */   
+    margin: 50px 10px 50px 300px;    
+    width: 90px;
+    height: 80px;
+   
+
+}
+#resilia{   /*configuração do logo da Resilia*/
+    margin: 10px 10px 50px 10px;    
+    width: 90px;
+    height: 80px;
+
+}
+
+#dev{    /*configuração do banner do Quero Ser Dev*/
+    margin: 50px 50px 50px 10px;    
+    width: 300px;
+    height: 80px;    
+}    
+
+.rodape{  /*configuração de fundo da div rodape*/
+    background: #292525;
+    
+   
+}
+
+
+/* configuracao pagina hobbie e interesses */
+
+#hobbieprincipal{
+    margin: 20px;    
+    width: 200px;   /*configuração da foto que esta na parte superior no cabeçalho menu de navegação pagina de hobbies e interesses*/
+    height: 200px;
+}    
+.todos{    
+    height: 750px;
+    background: white; /* configuração de meio de pagina cor de fundo espaçamento e largura da pagina hobbies e interesses*/
+    padding: 1%;
+    
+}
+
+    
+.treshobbies li {        
+    display: flex;   /*configuração de posicionamento dos tres blocos dos hobbies da pagina hobbies e interesses*/   
+    justify-content: left;     
+    align-items: center;    
+    box-sizing: border-box;
+    border: 2px solid #000000;
+	border-radius: 10px;
+    margin: 20px;    
+        
+}
+
+.ajusta{ /*estilo das palavras dos paragrafos dos hobbies paginas hobbies e interesses*/
+    font-family: 'montserrat', sans-serif;
+}
+
+ #cinehobbie{  /*configuração do primeiro bloco dos hobbies pagina hobbies e interesses*/  
+    display: flex;
+    margin: 10px;
+    width: 180px;       
+    box-sizing: border-box;
+    border: 2px solid #000000;
+	border-radius: 8px;
+   
+    
+}
+
+#futhobbie{ /*confifuração do segundo bloco dos hobbies paginas hobbies e interesses*/
+    display: flex;
+    margin: 10px;
+    width: 180px;
+     box-sizing: border-box;
+    border: 2px solid #000000;
+	border-radius: 8px;
+    
+} 
+
+#lerhobbie{ /*configuração do terceiro bloco dos hobbies paginas hobbies e interesses*/
+    display: flex;
+    margin: 10px;
+    width: 180px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+	border-radius: 8px;
+    
+} 
+
+
+/* configuracao pagina contatos */
+
+#contato{
+    margin: 20px;    
+    width: 200px;   /*configuração da foto na parte superior da pagina de contato menu de navegação*/
+    height: 200px;
+}
+
+.meio{
+    height: 750px; /*confuguração de meio de pagina cor de fundo, largura e espaço interno pagina contato*/
+    background: white;
+    padding: 1%;
+
+}
+
+form label, form legend { /*configuração do formulario de contato, nome e sobrenome, email, telefone, mensagem e como prefere nosso contato*/
+    display:flex;  
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao { /*configuração do seletor de como a pessoa prefere o nosso contato*/
+	display: flex;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox { /*confifuração do tamanho da circunferencia do seletor*/
+	margin: 20px 0;
+}
+
+.enviar { /*configuração do botaão enviar, tamanho, cor de fundo, tamanho interno, e configuração que é um botão de envio*/
+	width:40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover { /*cor de fundo do botão enviar e transformção em escala do tamanho do botão*/
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+.redesocial{ /*configuração de cor e tamanho do espaço ocupado pela div das minhas redes sociais*/
+    text-align: center;	
+	padding: 2px;   
+    background: hsl(271, 88%, 27%);
+    box-sizing: border-box;
+    border: 2px solid rgb(15, 15, 16);
+    margin: 10px;
+    width: auto;      
+
+}
+
+#linkedin, #github{  /*configuração do tamanho dos icobes do linkedin e github*/    
+    width: 30px;    
+    border-radius: 5px;    
+    margin: 4px;    
+}
+
+#linkedin:hover{   /*transformação em escala do tamanho do icone do linkedin */
+	transform: scale(1.2);
+}
+
+#github:hover{ /*transformação em escala do tamanho do icone do github */
+    transform: scale(1.2);
+}
+
+
+    
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head> <!--cabeçalho da pagina onde as informações são passadas para o navegador-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meus Contatos</title>                   
+        <link rel="stylesheet" href="./assest/css/reset.css">
+        <link rel="stylesheet" href="./assest/css/style.css">    
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caramel&display=swap" rel="stylesheet">      
+    </head>
+    <body> 
+        <header> <!--Cabeçalho da pagina com o menu de navegação entre as paginas-->
+            <div class="caixa">                   
+            <img id="contato" src="./assest/imagens/contato.png" alt="">                   
+                <nav>
+                    <ul>
+                        <li> <a href="index.html"> Quem sou eu? </a> </li>
+                        <li> <a href="hobbies.html">Hobbies e Interesses </a> </li>
+                        <li> <a href="contato.html"> Contatos </a></li>
+                    </ul> 
+                </nav>
+            </div>
+        </header>  
+        <div> <!--Principal divisão da pagina formulario de contato-->
+            <form class="meio"> 
+                <label for="nomesobrenome">Nome e sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>                       
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+                    <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+                    <input type="submit" value="Enviar formulário" class="enviar">              
+                </fieldset>         
+
+            </form>
+        </div>
+
+        <div class="redesocial"> <!--Divisão de link externo minhas redes sociais-->
+            <a href="https://www.linkedin.com/in/tiago-batista-441aa0105/" target="_blank"> <img id="linkedin" src="./assest/imagens/iconlikedin.png" alt="" ></a href>
+            <a href="https://github.com/tbatista0248" target="_blank"> <img id="github" src="./assest/imagens/icongithub.png" alt=""> </a href>
+        </div> 
+
+    </body>
+
+        <div class="rodape"> <!--Mesmo ropade das tres paginas com lodo da RD, Resilia e um banner do Quero Ser Dev-->
+            <footer>
+                <img id="logo" src="./assest/imagens/logoRD.png" alt="">
+                <img id="resilia" src="./assest/imagens/logoresilia.png" alt="">
+                <img id="dev" src="./assest/imagens/fotoqueroserdev.png" alt=""> 
+                <p class="copy"> &COPY; Todos os direitos reservados </p>                   
+            </footer>
+        </div>
+
+
+</html>
